@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeSummarizer", "YoutubeSummarizer.csproj", "{681D64AA-F8B7-4B27-BA2E-609727726ECA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{681D64AA-F8B7-4B27-BA2E-609727726ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681D64AA-F8B7-4B27-BA2E-609727726ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681D64AA-F8B7-4B27-BA2E-609727726ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681D64AA-F8B7-4B27-BA2E-609727726ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29E04BCB-00B6-4BC8-A770-EDCB284D4E15}
+	EndGlobalSection
+EndGlobal

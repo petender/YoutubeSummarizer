@@ -1,0 +1,24 @@
+﻿@page "/"
+@using YoutubeSummarizer.Components
+<PageTitle>Home</PageTitle>
+
+<div style="display: flex; align-items: center; justify-content: space-between;">
+    <div>
+        <h1 style="margin-bottom: 0;">YouTube</h1>
+        <h1>Summarizer</h1>
+    </div>
+    <img src="images/youtube_summarizer_logo.jpg" alt="YouTube Summarizer Logo" style="max-width: 200px; margin-left: 20px;" />
+</div>
+<br />
+<p>Welcome to this demo application for Azure OpenAI. It summarizes English YouTube (other languages to be added...) videos in 5 bullet points. Select your preferred output language from the Summary Language list.</p>
+<p>To get started, please <b>enter a YouTube link </b> and click the <b style="color:blue">"Summary" </b>button.</p>
+<div>
+    <YouTubeSummarizerComponent />
+</div>
+
+<i style="color:lightgray">Powered by</i> <i style="color:blue">Azure OpenAI</i> (c)
+
+@code{
+    // True when an asynchronous operation is running.
+    private bool Summarizing;
+}
